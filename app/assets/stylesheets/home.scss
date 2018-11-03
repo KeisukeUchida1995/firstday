@@ -1,0 +1,60 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.header{
+  float: left;
+  height: 90px;
+}
+.header-logo{
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.contents-item{
+  float: left;
+  margin-right: 40px;
+  color: black;
+}
+
+.container{
+  float: left;
+  padding:0px 250px;
+}
+
+.btn-black{
+  margin-left: 200px;
+  font-weight: bold;
+  float: middle;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  color: black;
+  background-color: yellow;
+  box-shadow: 10px 10px #000000;
+  border-radius:10px;
+
+}
+
+.btn-black:active{
+  position:relative;
+  top: 7px;
+  box-shadow:none;
+}
+
+.top-main h1 {
+  font-size: 100px;
+  color: blue;
+}
+
+.top-main h2{
+  font-size: 50px;
+}
+
+.top-main p{
+  font-size: 30px;
+}
+
+.top-message a{
+  padding: 20px 40px;
+}
